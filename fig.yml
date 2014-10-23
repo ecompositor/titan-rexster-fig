@@ -7,7 +7,7 @@ elasticsearch:
   expose:
     - "9200"
 titan:
-  image: ecompositor/titan-rexster
+  image: ecompositor/titan-rexster-fig
   ports:
     - "8182"
     - "8183"
