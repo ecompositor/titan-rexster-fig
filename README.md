@@ -41,6 +41,27 @@ elegance to query graphs.
 ## Running
 
 if you have fig installed you can:
+
+create fig.yml or get it from github repository for this image
+
+cassandra:
+  image: poklet/cassandra:latest
+  expose:
+    - "9160"
+elasticsearch:
+  image: dockerfile/elasticsearch
+  expose:
+    - "9200"
+titan:
+  image: ecompositor/titan-rexster-fig
+  ports:
+    - "8182"
+    - "8183"
+    - "8184"
+  links:
+    - cassandra
+    - elasticsearch
+
  
 fig up -d 
 
