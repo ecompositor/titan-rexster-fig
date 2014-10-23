@@ -1,5 +1,10 @@
 # Docker Image for Titan Graph Database
 
+
+This image is based on the fine work done by apobbati on the apobbati/titan-rexster
+Only difference is it is using 0.5.1 of Titan instead of 0.5.0 and will soon include gremlin-scala and some 
+sample data
+
 Titan is a free, open source database that is capable of processing
 extremely large graphs and it supports a variety of indexing and storage backends,
 which makes it easier to extend than some popular NoSQL Graph databases.
@@ -14,7 +19,7 @@ Enter Docker. Now it is possible to run Titan and it's dependencies in separate 
 
 ## Titan
 
-This container is using Titan 0.5.0. Please refer to
+This container is using Titan 0.5.1. Please refer to
 its [page](https://github.com/thinkaurelius/titan/wiki/Downloads) for more information.
 
 ## Tinkerpop and Rexster
@@ -34,6 +39,13 @@ Groovy-DSL for querying graphs to see how RexPro and Gremlin provide syntactical
 elegance to query graphs.
 
 ## Running
+
+if you have fig installed you can:
+ 
+fig up -d 
+
+this will use the fig.yml file to serve as shorthand for the following run commands.
+
 
 The minimum system requirements for this stack is 1 GB with 2 cores.
 
