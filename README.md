@@ -1,8 +1,8 @@
 # Docker Image for Titan Graph Database
 
-
+1/16/2015 updated run.sh to update template for rexster
 This image is based on the fine work done by apobbati on the apobbati/titan-rexster
-Only difference is it is using 0.5.3: of Titan instead of 0.5.0 and will soon include gremlin-scala and some 
+Only difference is it is using 0.5.2: of Titan instead of 0.5.0 and will soon include gremlin-scala and some 
 sample data
 
 Titan is a free, open source database that is capable of processing
