@@ -1,15 +1,15 @@
 cassandra:
   image: poklet/cassandra:latest
-  expose:
-    - "9160"
+  ports:
+    - "31160:9160"
 elasticsearch:
   image: dockerfile/elasticsearch
-  expose:
-    - "9200"
+  ports:
+    - "31200:9200"
 titan:
   image: ecompositor/titan-rexster-fig
   ports:
-    - "8182"
+    - "31182:8182"
     - "8183"
     - "8184"
   links:

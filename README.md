@@ -2,7 +2,7 @@
 
 
 This image is based on the fine work done by apobbati on the apobbati/titan-rexster
-Only difference is it is using 0.5.1 of Titan instead of 0.5.0 and will soon include gremlin-scala and some 
+Only difference is it is using 0.5.3: of Titan instead of 0.5.0 and will soon include gremlin-scala and some 
 sample data
 
 Titan is a free, open source database that is capable of processing
@@ -19,7 +19,7 @@ Enter Docker. Now it is possible to run Titan and it's dependencies in separate 
 
 ## Titan
 
-This container is using Titan 0.5.1. Please refer to
+This container is using Titan 0.5.2. Please refer to
 its [page](https://github.com/thinkaurelius/titan/wiki/Downloads) for more information.
 
 ## Tinkerpop and Rexster
