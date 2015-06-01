@@ -73,7 +73,7 @@ The minimum system requirements for this stack is 1 GB with 2 cores.
 ```
 docker run -d --name es1 dockerfile/elasticsearch
 docker run -d --name cs1 poklet/cassandra
-docker run -d -P --name mytitan --link es1:elasticsearch --link cs1:cassandra ecompositor/titan-rexster-rig
+docker run -d -P --name mytitan --link es1:elasticsearch --link cs1:cassandra ecompositor/titan-rexster-fig
 ```
 
 ### Ports
