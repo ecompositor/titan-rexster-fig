@@ -15,7 +15,7 @@ integrating with an ElasticSearch container (Indexing) and a Cassandra container
 The default distribution of Titan runs on a single node, so I thought it would be helpful
 if there was a modular way at runtime to hook up Titan to its dependencies.
 
-Enter Docker. Now it is possible to run Titan and it's dependencies in separate Docker containers.
+Enter Docker. Now it is possible to run Titan and its dependencies in separate Docker containers.
 
 ## Titan
 
